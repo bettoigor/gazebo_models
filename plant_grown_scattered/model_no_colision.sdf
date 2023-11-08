@@ -1,0 +1,503 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="plant_grown_scattered">
+    <static>true</static>
+
+    <!-- 1 -->
+    <link name="link">
+      <pose>0 0 0.08 0 0 0</pose>
+       <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  
+    <!-- 1 -->
+    <link name="link">
+      <pose>0.75 0 0.08 0 0 0</pose>
+       <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+
+    <!-- 4 -->
+    <link name="link">
+      <pose>1.5 -0.03 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+    <!-- 4 -->
+    <link name="link">
+      <pose>2.25 -0.03 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+    <!-- 6 -->
+    <link name="link">
+      <pose>3 0.02 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>    
+    <!-- 6 -->
+    <link name="link">
+      <pose>3.75 0.02 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  
+
+    <!-- 8 -->
+    <link name="link">
+      <pose>4.5 0.05 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  
+
+ 
+    <!-- 12 -->
+     <link name="link">
+      <pose>5.25 0.02 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+  
+
+    <!-- 14 -->
+    <link name="link">
+      <pose>6 0 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  
+
+
+    <!-- 17 -->
+    <link name="link">
+      <pose>6.75 -0.03 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  
+
+    <!-- 21 -->
+    <link name="link">
+      <pose>7.5 0 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  
+
+
+    <!-- 24 -->
+    <link name="link">
+      <pose>8.25 -0.03 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  
+
+
+    <!-- 25 -->
+    <link name="link">
+      <pose>9 0.03 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+
+  
+
+    <!-- 28 -->
+    <link name="link">
+      <pose>9.75 0.01 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  
+
+     <!-- 30 -->
+    <link name="link">
+      <pose>10.5 -0.06 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+ 
+     <!-- 33 -->
+    <link name="link">
+      <pose>11.25 0 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link> 
+    
+    <!-- 33 -->
+    <link name="link">
+      <pose>12 0 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link> 
+
+
+    <!-- 33 -->
+    <link name="link">
+      <pose>12.75 0 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link> 
+
+    <!-- 33 
+    <link name="link">
+      <pose>13.25 0 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link> 
+
+    <link name="link">
+      <pose>14 0 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link> 
+
+    <link name="link">
+      <pose>14.75 0 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link> 
+
+    <link name="link">
+      <pose>15.25 0 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link> 
+
+    <link name="link">
+      <pose>16.0 0 0.08 0 0 0</pose>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://plant/meshes/acanthus.stl</uri>
+            <scale>0.015 0.015 0.015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://plant/materials/scripts</uri>
+            <uri>model:/plant/materials/textures</uri>
+            <name>vrc/cotton</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+-->
+  </model>
+</sdf>

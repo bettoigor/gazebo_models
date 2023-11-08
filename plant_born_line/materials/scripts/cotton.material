@@ -1,0 +1,17 @@
+material vrc/cotton
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cotton.jpg
+				filtering anistropic
+				max_anisotropy 10
+				scale 1 0.5
+			}
+		}
+	}
+}
